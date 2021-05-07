@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textStyle="italic|bold"
+            android:fontFamily="@font/autour_one"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etfirstname"
+            android:layout_height="wrap_content"
+            android:hint="First name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:id="@+id/etlastname"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etemail"
+            android:hint="Email"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/etpassword"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repeat Password"
+            android:id="@+id/etrepeat"
+            android:layout_marginTop="15dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sign up"
+            android:id="@+id/btnsign"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

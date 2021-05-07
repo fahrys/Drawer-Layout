@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myprofile"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/myEmployee"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="Our Employee"/>
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/ic_baseline_how_to_reg_24"
+        android:title="Register Now"/>
+</menu>
